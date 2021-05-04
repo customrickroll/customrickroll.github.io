@@ -1,5 +1,8 @@
 body {
     background: #181A1B;
+}
+
+.player {
     pointer-events: none;
     position: absolute;
 }
