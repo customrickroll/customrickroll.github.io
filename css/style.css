@@ -5,4 +5,5 @@ body {
 .player {
     pointer-events: none;
     position: absolute;
+    margin: 0 auto;
 }
