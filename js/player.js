@@ -14,17 +14,10 @@ function onYouTubeIframeAPIReady() {
         playerVars: { 'autoplay': 1, 'controls': 0, 'enablejsapi': 1 },
         events: {
             'onReady': onPlayerReady,
-            'onStateChange': onStateChange,
         }
     });
 }
 
 function onPlayerReady(event) {
     event.target.playVideo();
-}
-
-function onStateChange(event) {
-    if (event.data == YT.PlayerState.PAUSED) {
-        return false;
-    }
 }

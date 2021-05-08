@@ -2,7 +2,7 @@ body {
     background: #181A1B;
 }
 
-.player {
+#player {
     pointer-events: none;
     position: absolute;
     margin: 0 auto;
