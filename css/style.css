@@ -7,3 +7,7 @@ body {
     position: absolute;
     margin: 0 auto;
 }
+
+iframe {
+    pointer-events: none;
+}
