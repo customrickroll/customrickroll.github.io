@@ -27,9 +27,8 @@ function onYouTubeIframeAPIReady() {
 }
 
 function onPlayerReady(event) {
-    event.target.mute();
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        event.target.mute();
+    }
     event.target.playVideo();
-    setTimeout(function() {
-        event.target.unMute();
-    }, 5000);
 }
