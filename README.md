@@ -12,3 +12,6 @@ Use a link shortener like **[Bitly](https://bitly.com)** to shorten the followin
 `https://customrickroll.github.io`
 
 You can also use a QR code generator to hide the link.
+
+## License
+This website is licensed under **[Apache-2.0 License](https://github.com/customrickroll/customrickroll.github.io/blob/master/LICENSE)**.
