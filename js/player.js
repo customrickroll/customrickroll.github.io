@@ -31,5 +31,5 @@ function onPlayerReady(event) {
     event.target.playVideo();
     setTimeout(function() {
         event.target.unMute();
-    }, 2000);
+    }, 5000);
 }
