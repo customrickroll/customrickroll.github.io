@@ -11,7 +11,15 @@ function onYouTubeIframeAPIReady() {
         height: '405',
         width: '720',
         videoId: 'QtBDL8EiNZo',
-        playerVars: { 'autoplay': 1, 'controls': 0, 'enablejsapi': 1 },
+        playerVars: {
+            'autoplay': 1,
+            'controls': 0,
+            'showinfo': 1,
+            'enablejsapi': 1,
+            'loop': 1,
+            'autohide': 1,
+            'playsinline': 1,
+        },
         events: {
             'onReady': onPlayerReady,
         }
